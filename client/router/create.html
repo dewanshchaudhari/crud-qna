@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.0/css/bulma.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navbarTop">
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="/">
+                    QUES
+                </a>
+            </div>
+        </nav>
+    </div>
+    <form class="container mt-3">
+        <div class="field">
+            <label class="label">Question</label>
+            <div class="control">
+                <input class="input" type="text" name="question" placeholder="HOW?" required>
+            </div>
+        </div>
+
+        <div class="field">
+            <label class="label">Answer</label>
+            <div class="control">
+                <textarea class="textarea" type="text" name="answer" placeholder="Because!" required></textarea>
+            </div>
+        </div>
+        <button type="submit" class="button is-success">Create</button>
+    </form>
+    <script src="./create.js"></script>
+</body>
+
+</html>
